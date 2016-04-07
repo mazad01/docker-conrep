@@ -1,5 +1,6 @@
 #!/bin/sh
 
+mv /conrep_5.48.xml /opt/hp/hp-scripting-tools/etc/conrep.xml
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/powerprofile_max_perf.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/hyperthreading_disable.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/asr_disable.dat
