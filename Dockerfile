@@ -13,3 +13,4 @@ RUN rpm -i /assets/hp-scripting-tools-10.02-3.rhel6.x86_64.rpm \
 WORKDIR /opt/hp/hp-scripting-tools/etc/
 
 CMD /bios-config.sh
+

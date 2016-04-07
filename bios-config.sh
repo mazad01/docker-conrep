@@ -1,4 +1,5 @@
 #!/bin/sh
+
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/powerprofile_max_perf.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/hyperthreading_disable.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/asr_disable.dat
@@ -12,3 +13,4 @@
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/energy_bias_maximum_performance.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/dyn_pwrcap_disabled.dat
 /opt/hp/hp-scripting-tools/bin/conrep -l -f /bios/dimm_voltage_optimized_for_performance.dat
+
