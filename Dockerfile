@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 
 MAINTAINER Mohashin Azad <mohashin.azad@yahoo.com>
 
@@ -8,6 +8,8 @@ RUN yum install -y \
       hwdata \
       pciutils \
       pciutils-libs \
+      && \
+    yum update -y \
       && \
     rpm -i /assets/*.rpm \
       && \
