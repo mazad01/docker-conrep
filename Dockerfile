@@ -25,8 +25,8 @@ LABEL \
 COPY . /
 
 RUN yum install -y \
-      hp-health \
-      hp-scripting-tools \
+      hp-health-10.60-1833.32.rhel7 \
+      hp-scripting-tools-10.40-69.rhel7 \
       hwdata \
       pciutils \
       pciutils-libs \
