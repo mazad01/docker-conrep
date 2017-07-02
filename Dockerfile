@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:7.3.1611
 
 MAINTAINER Mohashin Azad <mohashin.azad@yahoo.com>
 
