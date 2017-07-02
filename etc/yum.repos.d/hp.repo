@@ -1,0 +1,28 @@
+##################################################
+# These repos are described at                   #
+# https://downloads.linux.hpe.com/SDR/index.html #
+##################################################
+
+[HP-spp]
+name=HP Service Pack for ProLiant
+baseurl=https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/7.3/x86_64/current/
+enabled=1
+gpgcheck=1
+# https://downloads.linux.hpe.com/SDR/repo/spp/GPG-KEY-spp
+gpgkey=file:///etc/pki/rpm-gpg/GPG-KEY-spp
+
+[HP-mcp]
+name=HP Management Component Pack for ProLiant
+baseurl=https://downloads.linux.hpe.com/SDR/repo/mcp/centos/7.3/x86_64/current/
+enabled=1
+gpgcheck=1
+# https://downloads.linux.hpe.com/SDR/repo/mcp/GPG-KEY-mcp
+gpgkey=file:///etc/pki/rpm-gpg/GPG-KEY-mcp
+
+[HP-stk]
+name=HP scripting toolkit
+baseurl=https://downloads.linux.hpe.com/repo/stk/rhel/7Server/x86_64/current/
+enabled=1
+gpgcheck=1
+# https://downloads.linux.hpe.com/repo/stk/GPG-KEY-stk
+gpgkey=file:///etc/pki/rpm-gpg/GPG-KEY-stk

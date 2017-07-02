@@ -25,13 +25,13 @@ LABEL \
 COPY . /
 
 RUN yum install -y \
+      hp-health \
+      hp-scripting-tools \
       hwdata \
       pciutils \
       pciutils-libs \
       && \
     yum update -y \
-      && \
-    rpm -i /assets/*.rpm \
       && \
     yum -y clean all \
       && \
