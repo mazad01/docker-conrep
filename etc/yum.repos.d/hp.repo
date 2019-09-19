@@ -5,7 +5,7 @@
 
 [HP-spp]
 name=HP Service Pack for ProLiant
-baseurl=https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/7.3/x86_64/current/
+baseurl=https://downloads.linux.hpe.com/SDR/repo/spp/RHEL/7.6/x86_64/current/
 enabled=1
 gpgcheck=1
 # https://downloads.linux.hpe.com/SDR/repo/spp/GPG-KEY-spp
@@ -13,7 +13,7 @@ gpgkey=file:///etc/pki/rpm-gpg/GPG-KEY-spp
 
 [HP-mcp]
 name=HP Management Component Pack for ProLiant
-baseurl=https://downloads.linux.hpe.com/SDR/repo/mcp/centos/7.3/x86_64/current/
+baseurl=https://downloads.linux.hpe.com/SDR/repo/mcp/centos/7.6/x86_64/current/
 enabled=1
 gpgcheck=1
 # https://downloads.linux.hpe.com/SDR/repo/mcp/GPG-KEY-mcp
