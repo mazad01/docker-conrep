@@ -24,6 +24,9 @@ LABEL \
 
 COPY . /
 
+RUN yum update -y \
+      && rm -fr /var/cache/yum
+
 RUN yum install -y \
       hp-health-10.90-1873.8.rhel7 \
       hp-scripting-tools-11.30-29.rhel7 \
@@ -31,9 +34,7 @@ RUN yum install -y \
       pciutils \
       pciutils-libs \
       && \
-    yum update -y \
-      && \
-    yum -y clean all \
+    rm -fr /var/cache/yum \
       && \
     ln -fs /data/conrep_${CONREP_INPUT_VERSION}.xml /opt/hp/hp-scripting-tools/etc/conrep.xml
 
